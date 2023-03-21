@@ -22,11 +22,11 @@ body {
 .contact {
 
     text-align: center;
-    color: #FFB5C2;
+    color: #f59d08;
 }
 
 a {
-    color: #FFB5C2;
+    color: #f59d08;
 }
 
 .icons {
@@ -39,13 +39,13 @@ a {
 }
 
 #youtube {
-    background-color: #FFB5C2;
-    color: #FFB5C2;
+    background-color: #f59d08;
+    color: #f59d08;
     height: 15vh;
     width: 15vh;
     border-radius: 50%;
     border: 3px solid;
-    border-color: #FFB5C2;
+    border-color: #f59d08;
 }
 
 #instagram {
@@ -59,13 +59,13 @@ a {
 }
 
 #tiktok {
-    background-color: #FFB5C2;
-    color: #FFB5C2;
+    background-color: #f59d08;
+    color: #f59d08;
     height: 15vh;
     width: 15vh;
     border-radius: 50%;
     border: 3px solid;
-    border-color: #FFB5C2;
+    border-color: #f59d08;
 }
 
 #facebook {
