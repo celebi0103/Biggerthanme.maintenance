@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+	<link rel="icon" type="image/png" sizes="16x16" href="../Static/images/BTM.png">
+	<link rel="stylesheet" href="../Static/blog.css" type="text/css">
+    <link rel="stylesheet" href="../Static/header2.css" type="text/css">
+    <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+{{template "header"}}
+
+<body>
+  <div class="banniere">
+    <img src="/Static/images/banniereBlog.jpg">
+    <div class="scroll-down-arrow"></div>
+  </div>
+  <script>document.querySelector(".scroll-down-arrow").addEventListener("click", () => {
+    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });});
+  </script>
+  <div class="titre">
+    <h1>Bienvenue sur notre Blog</h1>
+  <div class="text1">
+    <h3>Association lyonnaise, vous permettant la découverte de nouveau sport, <br>
+      parcourez nos articles pour en savoir plus sur les news du sport aux alentours de Lyon.</h3>
+  </div>
+
+        
+      <div class="image-container">
+        <a href="/services">
+          <img src="/Static/articles/Bienvenu.png" alt="Image 3" class="image">
+          <div class="titrearticle">Chez BTM</div>
+      </a>
+        <a href="/articlesfede">
+            <img src="/Static/articles/federation.png" alt="Image 2" class="image">
+            <div class="titrearticle">Fédérations</div>
+        </a>
+        <a href="/articlesHandi">
+            <img src="/Static/articles/handisport.png" alt="Image 3" class="image">
+            <div class="titrearticle">Handisport</div>
+        </a>
+      </div>
+    <div class="image-container">
+      <a href="/articlesB">
+        <img src="/Static/articles/boxef.png" alt="Image 3" class="image">
+        <div class="titrearticle">Boxe Féminine</div>
+    </a>
+    <a href="/articlesdanse">
+      <img src="/Static/articles/danse.png" alt="Image 2" class="image">
+      <div class="titrearticle">Danse</div>
+  </a>
+  <a href="/articlesBasket">
+    <img src="/Static/articles/basket.png" alt="Image 1" class="image">
+    <div class="titrearticle">Basketball</div>
+</a>
+
+  </div>
+        <!-- Ajoutez d'autres lignes en fonction du nombre d'articles -->
+        
+    </div>
+  </div>
+</body>
+
+{{template "footer"}}
+
+</html>
