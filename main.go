@@ -91,6 +91,6 @@ func Handlefunc() {
 
 	fs := http.FileServer(http.Dir("Static/"))
 	http.Handle("/Static/", http.StripPrefix("/Static/", fs))
-	fmt.Println("https://biggerthanme.fr:8080")
+	fmt.Println("https://biggerthanme.fr")
 	http.ListenAndServe(":8080", nil)
 }
