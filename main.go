@@ -12,7 +12,7 @@ func main() {
 }
 func Handlefunc() {
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		template := template.Must(template.ParseFiles("./Page/index.html", "templates/header.html", "templates/footer.html"))
+		template := template.Must(template.ParseFiles("../Page/index.html", "templates/header.html", "templates/footer.html"))
 		if r.Method != http.MethodPost {
 			template.Execute(w, "")
 			return
