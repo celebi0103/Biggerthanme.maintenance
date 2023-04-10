@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+
+    margin: auto;
+    background-image: url('/Static/images/Motif.png');
+}
+
+.banniere {
+  position: relative;
+  height: 80%;
+}
+
+.banniere img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.scroll-down-arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.scroll-down-arrow::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.Titre {
+    font-family: "montserrat";
+    color: #1f1f1f;
+    text-decoration: underline 3px #f59d08;
+    display: flex;
+    justify-content: center;
+    padding: 2px;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 50%;
+    text-align: center;
+    background-color: white;
+}
+
+.des {
+    text-align: center;
+    background-color: white;
+    font-family: "Montserrat", sans-serif;   
+}
+.services{
+text-align: center;
+background-color: white;
+border: 1px solid
+}
+
+.image-container {
+  margin-top:3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.image {
+  background-color: white;
+  border: 4px solid black;
+  width: 40vh;
+  height: auto;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .image-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+  .image {
+  width: 80vw;
+  }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .image-container {
+  justify-content: center;
+  }
+  
+  .image {
+  width: 30vh;
+  }
+  }
+  
+  .image-container {
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+  
+  .image {
+  background-color: white;
+  border: 4px solid black;
+  width: 40vh;
+  height: auto;
+  margin: 10px;
+  }
+
