@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    /* background-image: url('/Static/images/Motif.png'); */
+}
+
+.titre{
+    text-align: center;
+}
+
+.premierParagraphe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+
+}
+
+.text1{
+text-align: center;
+width: 60%;
+
+}
+#image1{
+    border: solid;
+  height: auto;
+  width: 30%;
+  float: right;
+  margin-right: 20vh;
+}
+
+.deuxiemeParagraphe{
+margin:auto;
+    margin-top: 5vh;
+    /* width: 90%; */
+    width: 60%;
+    background-color: #fff;
+}
+
+.titre2{
+    text-align: center;
+  
+}
+
+.image2{
+
+    height: 10%;
+    width: 60%;
+    margin: 0 auto;
+}
+#image2{
+  
+  height: 10%;
+  width: 100%;
+  margin: 0 auto;
+    
+}
