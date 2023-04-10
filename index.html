@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="../Static/images/Favicon_BTM.png">
+    <link rel="stylesheet" href="/Static/index.css" type="text/css">
+    <link rel="stylesheet" href="../Static/header2.css" type="text/css">
+    <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+{{template "header"}}
+<body>
+    <div class="Titreservices">
+        <div class="banniere">
+            <img src="/Static/images/banniereindex.jpg">
+            <div class="scroll-down-arrow"></div>
+        </div>
+        <script>document.querySelector(".scroll-down-arrow").addEventListener("click", () => {
+            window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+        });</script>
+        <h1 class="Titre">Faire vivre le sport autrement</h1>
+    </div>
+
+    <div class="des">
+        <h5>Bigger Than Me est une boîte de production créée et gérée par des étudiants Lyonnais. Notre objectif est de mettre  <br> 
+            en avant le sport autrement. Podcast, documentaire ou reply d'évènement, nous pouvons vous proposer  <br>
+            différentes solutions pour la visibilité de votre sport et de votre association.  <br>
+            <br>
+            Des questions ? Une idée de projet ? Nous serons ravis de vous rencontrer et d'échanger avec vous pour démarrer  <br>  
+            une aventure commune !
+        </h5>
+        <div class="services">
+            <h3>Nos Services</h3>
+        </div>
+    </div>
+
+    
+    <div class="image-container">
+        <a href="/services">
+            <img src="/Static/images/BTMDocumentaire.png" alt="Image 1" class="image">
+        </a>
+        <a href="services">
+            <img src="/Static/images/BTMPodcast.png" alt="Image 2" class="image">
+        </a>
+        <a href="services">
+            <img src="/Static/images/BTMReplay.png" alt="Image 3" class="image">
+        </a>
+    </div>
+    
+</body>
+{{template "footer"}}
+
+</html>
