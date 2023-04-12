@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
      .footer-basic {
         width: 100%;
         margin-top: 100px;
@@ -29,6 +29,7 @@
         }
         
         .item a {
+         font-weight: bold;
         margin: 6px;
         color: white;
         }

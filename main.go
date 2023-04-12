@@ -89,6 +89,14 @@ func Handlefunc() {
 		}
 	})
 
+	http.HandleFunc("/articlesfede", func(w http.ResponseWriter, r *http.Request) {
+		template := template.Must(template.ParseFiles("./Page/articlefederation.html", "templates/header.html", "templates/footer.html"))
+		if r.Method != http.MethodPost {
+			template.Execute(w, "")
+			return
+		}
+	})
+
 	fs := http.FileServer(http.Dir("Static/"))
 	http.Handle("/Static/", http.StripPrefix("/Static/", fs))
 	fmt.Println("https://biggerthanme.fr")

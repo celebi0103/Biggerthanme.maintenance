@@ -1,6 +1,14 @@
 body {
     margin: auto;
-    /* background-image: url('/Static/images/Motif.png'); */
+    background-image: url('/Static/images/Motif.png');
+}
+
+.blanc{
+    margin: auto;
+    background-color: white;
+    align-items: center;
+    width: 75%;
+    height: 100%;
 }
 
 .titre{
