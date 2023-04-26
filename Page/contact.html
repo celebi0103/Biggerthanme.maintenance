@@ -3,8 +3,8 @@
 <head>
 	<link rel="icon" type="image/png" sizes="16x16" href="../Static/images/BTM.png">
 	<link rel="stylesheet" href="../Static/contact.css" type="text/css">
-    <link rel="stylesheet" href="../Static/header2.css" type="text/css">
-    <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
+  <link rel="stylesheet" href="../Static/header2.css" type="text/css">
+  <link rel="stylesheet" href="../Static/footer2.css" type="text/css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -14,78 +14,45 @@
 {{template "header"}}
 
 <body>
-   
-    <div class="background">
-        <div class="container">
-          <div class="screen">
-            <div class="screen-header">
-              <div class="screen-header-left">
-                <div class="screen-header-button close"></div>
-                <div class="screen-header-button maximize"></div>
-                <div class="screen-header-button minimize"></div>
-              </div>
-              <div class="screen-header-right">
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-                <div class="screen-header-ellipsis"></div>
-              </div>
-            </div>
-            <div class="screen-body">
-              <div class="screen-body-item left">
-                <div class="app-title">
-                  <span>CONTACTEZ - NOUS</span>
-                </div>
-                <div class="icons">
-                    <a href="/"></a><img id="fb" src="/Static/images/facebookORG.png">
-                    <a href="/"></a><img id="in" src="/Static/images/instagramORG.png">
-                    <a href="/"></a><img id="in" src="/Static/images/tiktokORG.png">
-                    <a href="/"></a><img id="in" src="/Static/images/youtubeORG.png">
-                </div>
-                <div class="contacts">Mail: prodbybiggerthanme@gmail.com</div>
-              </div>
-              <div class="screen-body-item">
-                <div class="app-form">
-                  <!-- <div class="app-form-group"> -->
-                    <!-- <div class="text1">
-                      <p>Bienvenue sur notre page de contact!<br>
-                        Si vous avez des questions,<br>
-                        n'hésitez pas à nous contacter.</p>
-                    </div>
-                    <div class="text1">
-                      <p>Si vous souhaitez nous envoyer un message,
-                        veuillez remplir le mail en y indiquant <br>
-                        votre nom,votre numéro de téléphone<br>
-                        et votre adresse e-mail à contacter en cas de réponse, <br>
-                        ainsi que le message que vous souhaitez nous transmettre.</p>
-                    </div>
-                    <div class="text1">
-                      <p> Nous vous répondrons dès que possible. Merci de votre intérêt pour notre site web!</p>
-                    </div>
-                    <a href="mailto:prodbybiggerthanme@gmail.com"> <button class="app-form-button" type="submit">SEND</button></a> -->
-
-                  <form action="mail.php" method="post"> 
-                    <div class="app-form-group">
-                      <input class="app-form-control" id="nom" name="nom" placeholder="Nom">
-                    </div>
-                    <div class="app-form-group">
-                      <input class="app-form-control" id="email" name="email" placeholder="EMAIL">
-                    </div>
-                    <div class="app-form-group">
-                      <input class="app-form-control" id="tel" name="tel" placeholder="Telephone">
-                    </div>
-                    <div class="app-form-group message">
-                      <input class="app-form-control" id="message" name="message" placeholder="MESSAGE">
-                    </div>
-                    <button class="app-form-button" type="submit">SEND</button>
-                  </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
+  
+  <div class="container">
+    <h1>Contactez-nous</h1>
+    <div class="container2">
+      <div class="logo">
+        <div class="lien">
+          <a href="https://www.facebook.com/profile.php?id=100087063756690"><img id="img" src="/Static/images/facebookORG.png"></a>
+          <a href="https://www.instagram.com/bigger.than.me/?igshid=YmMyMTA2M2Y%3D"><img id="img" src="/Static/images/instagramORG.png"></a>
+          <a href="https://www.tiktok.com/@biggerthan.me?_t=8WdUQ6tsaf7&_r=1"><img id="img" src="/Static/images/tiktokORG.png"></a>
+          <a href="https://www.youtube.com/channel/UCgvDAtZa30ogdymn-JofZAw?app=desktop"><img id="img" src="/Static/images/youtubeORG.png"></a>
+        </div>
+        <div class="mail">
+          <p>Mail: prodbybiggerthanme@gmail.com</p>
         </div>
       </div>
+      <div class="ligne">
+        <a>t</a>
+      </div>
+      <div class="text">
+        <div class="text2">
+          <p>
+            Bienvenue sur notre page de contact!<br>
+            Si vous avez des questions, n'hesitez pas à nous contacter. <br><br>
+            Si vous souhaitez nous envoyer un message, <br>
+            veuillez remplir le mail en y indiquant votre nom,<br> 
+            votre numéro de téléphone et votre adresse e-mail à <br>
+            contacter en cas de réponse ainsi que le message <br> 
+            que vous souhaitez nous transmettre.<br> <br>
+            Nous vous répondrons dès que possible. <br>
+            Merci de votre intérêt pour notre site web!
+          </p>
+        </div>
+        <div class="button">
+          <a href="mailto:prodbybiggerthanme@gmail.com">Envoyer votre Mail</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
       
 </body>
 {{template "footer"}}

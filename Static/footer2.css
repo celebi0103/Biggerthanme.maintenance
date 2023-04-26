@@ -36,13 +36,6 @@
         color: white;
         }
         
-        .footer-basic .copyright {
-        margin-top: 10px;
-        text-align: center;
-        font-size: 13px;
-        color: #aaa;
-        margin-bottom: 0;
-        }
         
         @media (max-width: 767px) {
         .iconn {
