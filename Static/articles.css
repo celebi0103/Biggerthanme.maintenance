@@ -1,71 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-    margin: auto;
-    background-image: url('/Static/images/Motif.png');
+  margin: auto;
+  background-image: url("/Static/images/Motif.png");
 }
 
-.blanc{
-    margin: auto;
-    background-color: white;
-    align-items: center;
-    width: 75%;
-    height: 100%;
+.blanc {
+  margin: auto;
+  background-color: white;
+  align-items: center;
+  width: 75%;
+  height: 100%;
 }
 
-.titre{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+.titre {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-.premierParagraphe{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 5vh;
-    font-family: 'Montserrat', sans-serif;
+.premierParagraphe {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+  font-family: "Montserrat", sans-serif;
 }
 
-.text1{
-text-align: center;
-width: 60%;
-font-family: 'Montserrat', sans-serif;
+.text1 {
+  text-align: center;
+  width: 60%;
+  font-family: "Montserrat", sans-serif;
 }
-#image1{
-    border: solid;
+#image1 {
+  border: solid;
   height: auto;
   width: 30%;
   float: right;
   margin-right: 20vh;
 }
 
-.deuxiemeParagraphe{
-margin:auto;
-    margin-top: 5vh;
-    /* width: 90%; */
-    width: 60%;
-    background-color: #fff;
-    font-family: 'Montserrat', sans-serif;
+.deuxiemeParagraphe {
+  margin: auto;
+  margin-top: 5vh;
+  /* width: 90%; */
+  width: 60%;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
 }
 
-.titre2{
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+.titre2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
-.image2{
-
-    height: 10%;
-    width: 60%;
-    margin: 0 auto;
+.image2 {
+  height: 10%;
+  width: 60%;
+  margin: 0 auto;
 }
-#image2{
-  
+#image2 {
   height: 10%;
   width: 100%;
   margin: 0 auto;
-    
 }
-p{
-  font-family: 'Montserrat', sans-serif;
-
+p {
+  font-family: "Montserrat", sans-serif;
 }

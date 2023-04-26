@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 body {
-
-    margin: auto;
-    background-image: url('/Static/images/Motif.png');
+  margin: auto;
+  background-image: url("/Static/images/Motif.png");
 }
 
 .banniere {
@@ -44,34 +42,34 @@ body {
 }
 
 .Titre {
-  font-family: 'Montserrat', sans-serif;
-    color: #1f1f1f;
-    text-decoration: underline 3px #f59d08;
-    display: flex;
-    justify-content: center;
-    padding: 2px;
-    margin: auto;
-    margin-top: 20px;
-    max-width: 50%;
-    text-align: center;
-    background-color: white;
+  font-family: "Montserrat", sans-serif;
+  color: #1f1f1f;
+  text-decoration: underline 3px #f59d08;
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 50%;
+  text-align: center;
+  background-color: white;
 }
 
 .des {
   margin: auto;
-    text-align: center;
-    background-color: white;
-    font-family: "Montserrat", sans-serif;   
+  text-align: center;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
 }
-.services{
-  font-family: 'Montserrat', sans-serif;
-text-align: center;
-background-color: white;
-border: 1px solid
+.services {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: white;
+  border: 1px solid;
 }
 
 .image-container {
-  margin-top:3vh;
+  margin-top: 3vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -86,25 +84,24 @@ border: 1px solid
 
 @media only screen and (max-width: 768px) {
   .image-container {
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  
   .image {
-  width: 80vw;
+    width: 80vw;
   }
   .des {
     text-align: center;
     background-color: white;
     font-family: "Montserrat", sans-serif;
-    width: 80%;   
-}
+    width: 80%;
   }
-  
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .image-container {
-  justify-content: center;
+    justify-content: center;
   }
   .des {
     margin-left: auto;
@@ -112,25 +109,24 @@ border: 1px solid
     text-align: center;
     background-color: white;
     font-family: "Montserrat", sans-serif;
-    width: 80%;   
-}
+    width: 80%;
+  }
   .image {
-  width: 30vh;
+    width: 30vh;
   }
-  }
-  
-  .image-container {
+}
+
+.image-container {
   margin-top: 3vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  }
-  
-  .image {
+}
+
+.image {
   background-color: white;
   border: 4px solid black;
   width: 40vh;
   height: auto;
   margin: 10px;
-  }
-
+}

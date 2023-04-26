@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
 body {
   margin: auto;
-  background-image: url('/Static/images/Motif.png');
+  background-image: url("/Static/images/Motif.png");
 }
 
 .image1 {
@@ -15,7 +15,7 @@ body {
 .intro {
   margin-top: 30px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .equipe1,
@@ -36,7 +36,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .text1,
@@ -44,13 +43,12 @@ body {
 .text3,
 .text4,
 .text5 {
-  margin-top:3vh;
+  margin-top: 3vh;
   margin-right: auto;
   margin-left: auto;
   width: 80%;
   background-color: #fff;
 }
-
 
 #logo2 {
   margin-top: 4vh;
@@ -65,26 +63,26 @@ p {
   background-color: #fff;
   margin: 0;
   margin-top: 10px;
-  font-family: 'Caviar Dreams', sans-serif;
+  font-family: "Caviar Dreams", sans-serif;
 }
 
-h3{
-  font-family: 'Montserrat', sans-serif;
+h3 {
+  font-family: "Montserrat", sans-serif;
   background-color: #fff;
   text-decoration: underline 3px #f59d08;
 }
 
-h4{
-  margin-top:4vh;
+h4 {
+  margin-top: 4vh;
   text-decoration: underline 3px #f59d08;
 }
 
 @media only screen and (max-width: 768px) {
   /* Supprime l'image de fond */
   body {
-    background-image:none;
+    background-image: none;
   }
-  
+
   /* Ajuste la taille du logo pour l'image */
   #logo2 {
     margin-top: 5vh;
@@ -93,23 +91,31 @@ h4{
     height: 25vh;
     width: 25vh;
   }
-  
+
   /* Ajuste la taille de l'image */
   .image1 img {
     width: 100%;
   }
-  
+
   /* Ajuste la hauteur des blocs "équipe" */
-  .equipe1, .equipe2, .equipe3, .equipe4, .equipe5 {
+  .equipe1,
+  .equipe2,
+  .equipe3,
+  .equipe4,
+  .equipe5 {
     margin-top: 40px;
     height: auto;
   }
-  
+
   /* Ajuste la largeur des blocs de texte des équipes */
-  .text1, .text2, .text3, .text4, .text5 {
-    margin-left:auto;
+  .text1,
+  .text2,
+  .text3,
+  .text4,
+  .text5 {
+    margin-left: auto;
     margin-right: auto;
-    margin-top:3vh;
+    margin-top: 3vh;
     width: 80%;
   }
 }
