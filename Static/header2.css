@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .menu {
   margin: 0;
   background-color: #fff;
@@ -11,14 +12,16 @@
 .menu a {
   color: #1e1e1c;
   text-decoration: underline 3px #f59d08;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  /* font-weight: bold; */
   margin: 0 0.5rem;
 }
 
 .menu a:hover {
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: underline 2px #1e1e1c;
   color: #f59d08;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #logo {

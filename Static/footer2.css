@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
      .footer-basic {
         width: 100%;
         margin-top: 100px;
@@ -29,7 +29,9 @@
         }
         
         .item a {
-         font-weight: bold;
+         /* font-weight: bold; */
+  font-family: 'Montserrat', sans-serif;
+
         margin: 6px;
         color: white;
         }
