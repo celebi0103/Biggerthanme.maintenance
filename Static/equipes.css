@@ -18,14 +18,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.equipe1,
+/* .equipe1,
 .equipe2,
 .equipe3,
 .equipe4,
 .equipe5 {
-  /* margin-top: 3vh;
-  height: 40vh; */
-}
+  margin-top: 3vh;
+  height: 40vh;
+} */
 
 .hehe,
 .hoho,
@@ -63,7 +63,8 @@ p {
   background-color: #fff;
   margin: 0;
   margin-top: 10px;
-  font-family: "Caviar Dreams", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
 }
 
 h3 {

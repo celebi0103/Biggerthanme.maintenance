@@ -118,6 +118,10 @@ h1 {
   display: block;
 }
 
+p {
+  font-size: 20px;
+}
+
 /* Taille d'écran mobile */
 @media (max-width: 576px) {
   .Titre {

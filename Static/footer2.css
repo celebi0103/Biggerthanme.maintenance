@@ -25,7 +25,7 @@
 .list-inline {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   color: #fff;
 }
 
@@ -47,6 +47,6 @@
   }
 
   .item a {
-    font-size: 14px;
+    font-size: 12px;
   }
 }

@@ -38,11 +38,13 @@
 
   #logo {
     margin-bottom: 1rem;
+    width: 50%;
+    height: 50%;
   }
 
   .menu a {
     font-size: 1.5rem;
-    margin: 1rem 0;
+    margin: 1rem;
   }
 
   .menu a img {
