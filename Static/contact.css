@@ -124,3 +124,26 @@ a {
       margin-top: -2vh;
   }
 }
+
+@media screen and (max-width: 480px) {
+  /* Pour les écrans de largeur inférieure ou égale à 480px */
+  .container {
+      margin-left: 2vw;
+      margin-right: 2vw;
+      width: 96vw;
+  }
+  .logo img {
+      height: 4vh;
+  }
+  .mail {
+      margin-top: 3vh;
+      margin-left: 0;
+      text-align: center;
+  }
+  p {
+      font-size: 1.8vh;
+  }
+  .text2 {
+      margin-top: -2vh;
+  }
+}
