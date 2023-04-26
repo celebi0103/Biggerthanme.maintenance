@@ -60,11 +60,13 @@ h3{
     max-width: 50%;
     text-align: center;
     background-color: white;
+    text-decoration: underline 3px #f59d08;
 }
 
 h1{
     margin:auto;
     text-align: center;
+    background-color: white;
 }
 
 .Paragraphe1{
